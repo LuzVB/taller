@@ -12,5 +12,50 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('inicio');
 });
+
+Route::get('/compra', function () {
+    return view('compra');
+});
+
+
+
+Route::post('formulario','formularioController@formulario');
+
+Route::get('/busquedaValor', function () {
+    return view('busquedaValor');
+});
+
+Route::get('/busquedaNombre', function () {
+    return view('busquedaNombre');
+});
+
+Route::get('/busquedaCodigo', function () {
+    return view('busquedaCodigo');
+});
+
+Route::get('/busquedaTipo', function () {
+    return view('busquedaTipo');
+});
+
+Route::get('/busquedaClase', function () {
+    return view('busquedaClase');
+});
+
+
+Route::post('productos','formularioController@productos');
+
+
+Route::get('/mostrar', function () {
+    return view('mostrar');
+});
+
+
+
+/*Route::post('formulario','FormularioController@formulario');
+
+Route::get('/formulario', function () {
+    return view('formulario');
+});*/
+
