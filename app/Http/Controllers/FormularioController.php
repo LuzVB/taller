@@ -582,13 +582,13 @@ class FormularioController extends Controller
         foreach ($codigos as $indice => $valor1) {
             foreach ($valor1 as $key => $value) {
                 if ($value == $valor || $value == $nombre || $value == $tipo || $value == $codigo || $value == $clase) {
-                 $inf[]=[
-                   'Codigo'=> $valor1['Codigo'],
-                   'Nombre'=>$valor1['Nombre'],
-                   'valor'=>$valor1['valor'],
-                   'clase'=>$valor1['clase'],
-                   'tipo'=>$valor1['tipo'],
-                 ];
+                     $inf[]=[
+                       'Codigo'=> $valor1['Codigo'],
+                       'Nombre'=>$valor1['Nombre'],
+                       'valor'=>$valor1['valor'],
+                       'clase'=>$valor1['clase'],
+                       'tipo'=>$valor1['tipo'],
+                     ];
                 }
             }
         }

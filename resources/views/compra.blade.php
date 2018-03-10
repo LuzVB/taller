@@ -11,7 +11,8 @@
 
 <hr>
 
-<form>
+<form action="{{url('compra')}}" method="POST">
+  {{csrf_field()}}
   <div class="form-row">
     <label for="inputEmail4">Nombre y apellidos del representante legal</label>
     <div class="col">
@@ -52,9 +53,8 @@
     <label for="exampleFormControlTextarea1">Descripcion del contrato</label>
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="descr"></textarea>
   </div>
+  <button type="submit" class="btn btn-info"">Enviar</button>
+  <br><br>
 </form>
 
-<button type="submit" class="btn btn-info"">Enviar</button>
-<br><br>
-  
 @stop  

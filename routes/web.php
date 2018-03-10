@@ -15,11 +15,6 @@ Route::get('/', function () {
     return view('inicio');
 });
 
-Route::get('/compra', function () {
-    return view('compra');
-});
-
-
 
 Route::post('formulario','formularioController@formulario');
 
@@ -46,10 +41,22 @@ Route::get('/busquedaClase', function () {
 
 Route::post('productos','formularioController@productos');
 
+Route::get('/mostrar', function () {
+    return view('mostrar');
+});
+
+Route::post('compra','CompraController@compra');
+
+Route::get('/compra', function () {
+    return view('compra');
+});
 
 Route::get('/mostrar', function () {
     return view('mostrar');
 });
+
+
+
 
 
 
