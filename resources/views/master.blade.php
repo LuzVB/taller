@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Colombia Compra Eficiente </title>
+    <title>Colombia Compra Eficiente</title>
 
 
 
@@ -20,10 +20,10 @@
 
     <style>
       .bienvenido{
-        font-family: arial;
+        font-family: tahoma;
         font-size: 30px;
         text-align: center;
-        padding: 40px;
+        padding: 20px;
       }
     </style>
 
