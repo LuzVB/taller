@@ -20,8 +20,8 @@
 
     <style>
       .bienvenido{
-        font-family: tahoma;
-        font-size: 30px;
+        font-family: arial;
+        font-size: 40px;
         text-align: center;
         padding: 20px;
       }
@@ -33,7 +33,7 @@
 
   <body>
     <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
-      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Colombia Compra Eficiente</a>
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Colombia Compra eficiente</a>
     </nav>
 
     <div class="container-fluid">
